@@ -1,5 +1,10 @@
 source 'https://rubygems.org'
 
+gem 'rest-client'
+#required for rest-client
+gem 'mime-types'
+gem 'netrc'
+gem 'rdoc'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.6'
